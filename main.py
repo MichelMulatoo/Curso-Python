@@ -14,4 +14,4 @@ while contador >= minimo:
     print(contador)
     contador -= 1
 else:
-    print('Fin ciclo while')
+    print('Fin ciclo while por mientras')
