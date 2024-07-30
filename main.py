@@ -8,7 +8,7 @@
 #     print('Fin del ciclo while')
 
 minimo = 1
-contador = 5
+contador = 7
 
 while contador >= minimo:
     print(contador)
