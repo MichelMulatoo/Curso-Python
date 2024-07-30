@@ -51,24 +51,38 @@
 # print(nombres)
 
 
-# ejercicios 1 iterar un rango de 0 10 e imprimir numero divisibles entre 3
-print('Rango de 0 a 10 con munmero divisibles entre 3')
-for i in range(11):
-    if i % 3 == 0:
-        print(i)
+# # ejercicios 1 iterar un rango de 0 10 e imprimir numero divisibles entre 3
+# print('Rango de 0 a 10 con munmero divisibles entre 3')
+# for i in range(11):
+#     if i % 3 == 0:
+#         print(i)
+#
+# # ejercicios 2. Crear un rango de  numero de 2 a 6 e imprimir
+# print('Rango con valores de inicio = 2 y fin = 6')
+# rango = range(2,7)
+# for i in rango:
+#     print(i)
+#
+# # Ejercicio3 . Crear un rango de 3 a 10, pero con incremento de 2 en 2, en lugar de 1 en 1
+# print('Rango con valores de inicio = 3, fin = 10, incremento = 2 ')
+# rango = range(3,11,2)
+# for i in rango:
+#     print(i)
+#     print('Todo bien    ')
 
-# ejercicios 2. Crear un rango de  numero de 2 a 6 e imprimir
-print('Rango con valores de inicio = 2 y fin = 6')
-rango = range(2,7)
-for i in rango:
-    print(i)
 
-# Ejercicio3 . Crear un rango de 3 a 10, pero con incremento de 2 en 2, en lugar de 1 en 1
-print('Rango con valores de inicio = 3, fin = 10, incremento = 2 ')
-rango = range(3,11,2)
-for i in rango:
-    print(i)
-    print(i)
+# Definir una tupla
+
+frutas = ('Naranja', 'Platano', 'Manzana')
+#Saber el largo
+print(frutas)
+print(len(frutas))
+# Acceder a un elemento
+print(frutas[0])
+#Navegacion inversa
+print(frutas[-1])
+#Acceder a un rango
+print(frutas[0:1])
 
 
 
