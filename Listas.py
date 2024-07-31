@@ -73,19 +73,126 @@
 
 # Definir una tupla
 
-frutas = ('Naranja', 'Platano', 'Manzana')
-#Saber el largo
-print(frutas)
-print(len(frutas))
-# Acceder a un elemento
-print(frutas[0])
-#Navegacion inversa
-print(frutas[-1])
-#Acceder a un rango
-print(frutas[0:1])
+# frutas = ('Naranja', 'Platano', 'Manzana')
+# #Saber el largo
+# print(frutas)
+# print(len(frutas))
+# # Acceder a un elemento
+# print(frutas[0])
+# #Navegacion inversa
+# print(frutas[-1])
+# #Acceder a un rango
+# print(frutas[0:1])# sin incluir el ultimo indice
+#
+# #Recorrer elementos
+# for fruta in frutas:
+#     print(fruta, end=' ')
+#
+# #Cambiaar valor tupla
+# frutaLista = list(frutas)
+# frutaLista[0] = 'Pera'
+# frutas = tuple(frutaLista)
+# print('\n' ,frutas)# colocamos un salto de linea
+#
+# # eliminar una tupla por completo
+# del frutas
+# print(frutas)
+
+#Crear una lista que solo incluya los numeros menores a 5
+# tupla = (13, 1, 8, 3, 2, 5, 8)
+#
+# #define lista
+# lista = []
+#
+# # se filtra los elementos menores a 5 de la tupla
+# for elemento in tupla:
+#     if elemento < 5:
+#         lista.append(elemento)
+# print(lista)
 
 
+# Set
 
+# planetas = {'Marte', 'Jupiter', 'Venus'}
+# print(planetas)
+#
+# #Largo
+# print(len(planetas))
+# #Revisar si un elemento esta presente
+# print('Marte' in planetas)
+#
+# # para agregar un elemento
+# planetas.add('Tierra')
+# print(planetas)
+#
+# #No se pueden duplicar los elementos
+# planetas.add('Tierra')
+# print(planetas)
+#
+# # eliminar elemento posiblemente arrojando un error
+# planetas.remove('Tierra')
+# print(planetas)
+# #eliminar elemnto sin arrojar error
+# planetas.discard('Jupiterre')
+# print(planetas)
+# # limpiar Set
+# planetas.clear()
+# print(planetas)
+#
+# #eliominar el set completo
+# del planetas
+# print(planetas)
+
+
+# diccionario Python
+# dict (Key, value)
+diccionario = {
+
+    'IDE':'Integrated Development Environment',
+    'OOP':'Object Oriented Programming',
+    'DBM':'Database Management System'
+}
+print(diccionario)
+
+#largo
+print(len(diccionario))
+# Acceder a un elemento (Key)
+print(diccionario['IDE'])
+#Otra forma de recuperar un elemento
+print(diccionario.get('OOP'))
+# Modificamos elementos
+diccionario['IDE'] = 'integrated development environment'
+print(diccionario)
+
+#Recorrer los elementos
+for termino, valor in diccionario.items():
+    print(termino, valor)
+
+for termino in diccionario.keys():
+    print(termino)
+
+for valor in diccionario.values():
+    print(valor)
+
+#Comprueba existencia de algun elemento
+print('IDE' in diccionario)
+# Agregar un elemento
+diccionario['PK'] = 'Primary Key'
+print(diccionario)
+
+#  Remover un elemento
+diccionario.pop('DBM')
+print(diccionario)
+
+# limpiar
+diccionario.clear()
+print(diccionario)
+
+# eliminar el diccionario
+del diccionario
+print(diccionario)
+
+#Funcion es una bloque de codigo que se puede llamar una cantidad de veces
 
 
 
